@@ -1,2 +1,2 @@
 # flip
-It's flip-cart kind of shopping site
+It's a spring based web application using microservice architecture.
