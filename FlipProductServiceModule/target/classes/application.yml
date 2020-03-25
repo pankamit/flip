@@ -1,0 +1,13 @@
+#user-info-service:
+#  ribbon:
+#    eureka:
+#      enabled: false
+#    listOfServers: localhost:9092,localhost:9999
+#    ServerListRefreshInterval: 15000
+    
+hello-product-service:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8089,localhost:9192,localhost:9998
+    ServerListRefreshInterval: 15000
